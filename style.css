@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+
+
+#titulo{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 6vw;
+}
+
+#ptexto{
+   
+    background-color: #FFF;
+    padding: 70px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin: 90px;
+    border-radius: 60px;
+    font-family: 'Sometype Mono', monospace;
+}
+
+
+.botao{
+    height: 12vw;
+    width: 26vw;
+    position: relative;
+    top: 3vw;
+    font-family: 'Mohave', sans-serif;
+    font-size: 3vw;
+}
+
+#botao{
+    border: solid 1px red;
+    border-radius: 20px;
+    color: red;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    
+    
+}
+#botao:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.0)
+    
+}
+
+.my-element {
+
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+  }
+
+  @media screen and (max-width:820px){
+      #titulo{
+          font-size: 12.5vw;
+      }
+
+      #ptexto{
+   
+        background-color: #FFF;
+        padding: 10vw;
+        margin-top: 30vw;
+        margin-bottom: 30vw;
+        margin: 1vw;
+        border-radius: 60px;
+        font-family: 'Sometype Mono', monospace;
+    }
+
+    .botao{
+        height: 25vw;
+        width: 50vw;
+        position: relative;
+        top: 3vw;
+        font-family: 'Mohave', sans-serif;
+        font-size: 5vw;
+    }
+  }
